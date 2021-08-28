@@ -24,12 +24,27 @@ my page and layout.
     font-family: Georgia, "Times New Roman",
           Times, serif;
     background-color: orange }
+	
   ul.navbar {
+  	list-style-type: none;
+    padding: 0;
+    margin: 0;
     position: absolute;
     top: 2em;
     left: 1em;
     width: 9em }
-  </style>
+	ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
+</style>
 </head>
 <!--
 The body tag contains all the contents of my main page.
@@ -40,7 +55,6 @@ Any paragraphs are also included in this section.
     <h1 style="color: black; text-align:center; ">Jumbo's Pizza</h1> 
     </header>
     <img src="Pizzaguy2.jpg" alt="pizzaguy" width="400" height="300">
- 	<article>
  	<section>
     </section>
 <!--
@@ -49,14 +63,14 @@ It will allow customers to go to
 go to the four other pages on my site.
 !-->
         <ul class="navbar">
-  			<li><a href="Menu.html">Menu</a>
-  			<li><a href="Locations.html">Locations</a>
-  			<li><a href="Coupon.html">Coupons</a>
-  			<li><a href="rewards.html">Rewards</a>
+  			<li><a href="About Us.html">About Us</a>
+  			<li><a href="Services.html">Services</a>
+  			<li><a href="Gallery.html">Gallery</a>
+  			<li><a href="Contact Us.html">Contact Us</a>
 		</ul>
     </article>
     <footer style="color: black; text-align: center;">
-    Jumbo's Pizza &#8226; 722 South Yale Ave, Tulsa OK &nbsp; 74136 &#8226; 918-642-884
+    Jumbo's Pizza &#8226; 722 South Yale Ave, Tulsa OK &nbsp; 74136 &#8226; 918-642-8849
 </footer>
 </body>
 <!--
