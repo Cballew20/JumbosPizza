@@ -1,0 +1,46 @@
+/*
+This is my first CSS stylesheet that I am creating for my website
+Author: Chris
+Date: August 30, 2021
+*/
+
+body {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: White;
+  background-image: url("PizzaBG.jpg");
+   }
+/*
+This is where I am placing the style parts for my nav bar
+*/   
+ul.navbar {
+  list-style-type: square;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+h1 {
+  font-family: Cursive;
+  font-size: 40px; }
+p  {
+	font-family: serif;
+	font-size: 30px;}
+ul.navbar li {
+  background: black;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid orange }
+ul.navbar a {
+  text-decoration: none }
+a:link {
+  color: orange }
+a:visited {
+  color: purple }
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
+
