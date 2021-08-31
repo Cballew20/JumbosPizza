@@ -24,10 +24,14 @@ ul.navbar {
   width: 9em }
 h1 {
   font-family: Cursive;
-  font-size: 40px; }
+  font-size: 40px;
+  color: orange;
+  background-color: black; }
 p  {
 	font-family: serif;
-	font-size: 30px;}
+	font-size: 30px;
+	color: orange;
+	background-color: black;}
 ul.navbar li {
   background: black;
   margin: 0.5em 0;
@@ -38,7 +42,7 @@ ul.navbar a {
 a:link {
   color: orange }
 a:visited {
-  color: purple }
+  color: orange }
 address {
   margin-top: 1em;
   padding-top: 1em;
