@@ -41,10 +41,27 @@ ul.navbar a {
   text-decoration: none }
 a:link {
   color: orange }
+a:hover {
+background-color: white;
+color: black;
+}
 a:visited {
-  color: orange }
+  color: orange; }
 address {
   margin-top: 1em;
   padding-top: 1em;
   border-top: thin dotted }
+a.active {
+	background-color: white;
+	color: black; }
+footer {
+	color: orange;
+	background-color: Black;
+	text-align: center;
+	font-family: Cursive;
+	font-size: 25px;
+	padding: 10px;
+	position: fixed;
+	bottom:0;
+	width: 100%;}
 
