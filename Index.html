@@ -19,30 +19,40 @@ my page and layout.
     <meta name="keywords" content="Pizza, Tulsa, restaurant, food" />
     <title>Jumbo's Pizza</title>
 	<link rel="stylesheet" href="Mystyles.css">
+	<style>
+		#layout{
+			display: grid;
+			grid-template-columns: auto auto;
+			grid-template-rows: auto auto;
+			grid-gap: 10% 15%;
+		}
+	</style>
 </head>
 <!--
 The body tag contains all the contents of my main page.
 Any paragraphs are also included in this section.
 !-->
 <body>
+	<div id="layout">
 	 <header>
     <h1 style="color: orange; background-color: black; text-align:center; ">Jumbo's Pizza</h1> 
     </header>
     <img src="Pizzaguy2.jpg" alt="pizzaguy" width="400" height="300">
     <article>
-    <p> When You are having a craving some "Old School" New York style pizza in Tulsa, Oklahoma then look no further
+    <p> When you are having a craving for some "Old School" New York style pizza in Tulsa, Oklahoma then look no further
     than Jumbo's Pizza where we will curb that craving.
     </p>
     <p> We are located in beautiful downtown Tulsa, right across from the AT&T building. After you have a slice of pizza you can explore
     all that Tulsa has to offer, including the Gathering Place.
     </p>
+    </article>
 <!--
 This is my site navigation tags
 It will allow customers to go to 
 go to the four other pages on my site.
 !-->
         <ul class="navbar">
-        	<li><a class="active" a href="./Index.html">Home</a>
+        	<li><a class="active" href="./Index.html">Home</a>
   			<li><a href="./About.html">About Us</a>
   			<li><a href="./Services.html">Services</a>
   			<li><a href="./Gallery.html">Gallery</a>
@@ -50,7 +60,8 @@ go to the four other pages on my site.
 		</ul>
     <footer style="color: orange; background-color: black; text-align: center;">
     Jumbo's Pizza &#8226; 722 South Yale Ave, Tulsa OK &nbsp; 74136 &#8226; 918-642-8849
-</footer>
+	</footer>
+	</div>
 </body>
 <!--
 In the footer tag is where I place any information about my company,

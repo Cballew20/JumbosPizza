@@ -19,12 +19,20 @@ my page and layout.
     <meta name="keywords" content="Pizza, Tulsa, restaurant, food" />
     <title>Jumbo's Pizza</title>
     <link rel="stylesheet" href="Mystyles.css">
+    <style>
+    	#grid{
+    		display: grid;
+    		grid-template-rows: auto auto;
+    		grid-gap: 15%;
+    	}
+    </style>
 </head>
 <!--
 The body tag contains all the contents of my main page.
 Any paragraphs are also included in this section.
 !-->
 <body>
+	<div id="grid">
 	<header>
     <h1 style="color: orange; background-color: black; text-align:center; ">Jumbo's Pizza</h1> 
     </header>
@@ -39,7 +47,7 @@ go to the four other pages on my site.
   			<li><a href="./About.html">About Us</a>
   			<li><a href="./Services.html">Services</a>
   			<li><a href="./Gallery.html">Gallery</a>
-  			<li><a class="active" a href="./Contact.html">Contact Us</a>
+  			<li><a class="active" href="./Contact.html">Contact Us</a>
 		</ul>
 <!--
 On the Contact Us part of this page I use the p tag to add information for users to contact my restaurant
@@ -50,10 +58,10 @@ On the Contact Us part of this page I use the p tag to add information for users
 	<strong>Fax Number: 918-642-8779</strong> <br>
 	Order Online Any Day From 11 a.m. to 8 p.m.<br>
 	If you are looking to get an event catered we will need at least two days notice.</p>
-	</article>
     <footer style="color: orange; background-color: black; text-align: center;">
     Jumbo's Pizza &#8226; 722 South Yale Ave, Tulsa OK &nbsp; 74136 &#8226; 918-642-8849
-</footer>
+	</footer>
+	</div>
 </body>
 <!--
 In the footer tag is where I place any information about my company,
