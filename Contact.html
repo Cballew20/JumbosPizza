@@ -25,6 +25,15 @@ my page and layout.
     		grid-template-rows: auto auto;
     		grid-gap: 15%;
     	}
+    	form{
+    		background-color: Black;
+    		color: orange;
+    		margin: auto;
+    		width: 550px;
+    		height: 550px;
+    		padding: 10px;
+    		border-radius: 10px;
+    	}
     </style>
 </head>
 <!--
@@ -37,6 +46,44 @@ Any paragraphs are also included in this section.
     <h1 style="color: orange; background-color: black; text-align:center; ">Jumbo's Pizza</h1> 
     </header>
     <img src="Pizzaguy2.jpg" alt="pizzaguy" width="400" height="300">
+    <form action=”response_page.php” method=”post”>
+    	<h1>Newsletter Registration</h1>
+    	<fieldset>
+    	<legend>Contact Info</legend>
+    	<label for="firstname">First Name:
+    	<input type="text" name="firstname" id="firstname"><br>
+    	Last Name:
+    	<input type="text" name="lastname"><br>
+    	<label for="email">Email:
+    	<input type="text" name="email" id="email"><br>
+    	City:
+    	<input type="text" name="city"><br>
+    	State:
+    	<input type="text" name="state"><br>
+    	Zip:
+    	<input type="text" name="zip"><br>
+    	Address:<br>
+    	<textarea rows="3" cols="30" name="street"></textarea><br>
+
+    	</fieldset>
+    	<fieldset>
+    	<legend>Visits</legend>
+    	Visits a Month:<br>
+    	0-2
+    	<input type="radio" name="visits">
+    	3-5
+    	<input type="radio" name="visits">
+    	5+
+    	<input type="radio" name="visits"><br>
+    	Location Visited:
+    	<select name="city">
+    	<option value="oklahoma city">Oklahoma City</option>
+    	<option value="stillwater">Stillwater</option>
+    	<option value="tulsa">Tulsa</option>
+    	</select><br>
+    	</fieldset>
+    	<input type="submit" value="Submit">
+    </form>
 <!--
 This is my site navigation tags
 It will allow customers to go to 
